@@ -1,0 +1,128 @@
+.jd_layout{
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: pink;
+}
+.jd_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 100001;
+}
+.jd_header>.jd_header_box{
+    max-width: 640px;
+    min-width: 320px;
+    height:40px;
+    background-color: rgba(201,21,35,1);
+    margin: 0 auto;
+    positon:relative;
+}
+.jd_header>.jd_header_box .icon_logo{
+    background-position: 0 -103px;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    width: 60px;
+    height: 30px;
+
+}
+.jd_header>.jd_header_box .login{
+    position: absolute;
+    top: 3px;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.jd_header>.jd_header_box form{
+    padding-left: 65px;
+    padding-right: 45px;
+}
+.jd_header>.jd_header_box form input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 15PX;
+    padding-left: 30px;
+}
+.jd_header>.jd_header_box form .icon_search{
+    background-position: -60px -109px;
+    position: absolute;
+    left: 73px;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+
+}
+/*轮播图部分开始*/
+.jd_banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jd_banner ul:nth-child(1){
+    transform:translate(-10%);
+    width: 1000%;
+}
+.jd_banner ul:nth-child(1)>li{
+    width: 10%;
+    float: left;
+}
+.jd_banner ul:nth-child(1)>li>a{
+
+}
+.jd_banner ul:nth-child(1)>li>a>img{
+    width: 100%;
+}
+/*圆点的css样式*/
+.jd_banner ul:nth-child(2){
+    position: absolute;
+    width: 118px;
+    height: 6px;
+    left: 50%;
+    margin-left: -59px;
+    bottom: 6px;
+}
+.jd_banner ul:nth-child(2) li{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin-left: 10px;
+    float: left;
+}
+.jd_banner ul:nth-child(2) li.now{
+    margin-left: 0;
+    background: #fff;
+}
+/*nav部分的样式*/
+.jd_nav>ul{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.jd_nav>ul>li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 10px 0;
+}
+.jd_nav>ul>li>a>img{
+    width: 40px;
+    height: 40px;
+}
+.jd_nav>ul>li p{
+    font-size: 12px;
+}
+/*商品部分开始*/
+.jd_product{
+
+}
+
+
